@@ -9,13 +9,9 @@ KEY  = "jw3DGr4LVXclcsVm3IpG8RFnZfCHWWDMoNJqlHpe"
 
 import requests
 from urllib.request import urlopen
-from pprint import PrettyPrinter
 from datetime import datetime
 from qtpy.QtWidgets import QLabel, QApplication, QWidget, QPushButton, QGridLayout, QDateEdit
 from qtpy.QtGui import QPixmap
-
-pp = PrettyPrinter()
-
 
 
 class App(QWidget):
